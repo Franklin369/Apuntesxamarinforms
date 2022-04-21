@@ -1,0 +1,4 @@
+<Elemento.GestureRecognizers>
+  <TapGestureRecognizer Command="{Binding Path=BindingContext.IrReproductorcommand,Source={x:Reference listamusica}}"
+   CommandParameter="{Binding .}" />
+</Elemento.GestureRecognizers>
