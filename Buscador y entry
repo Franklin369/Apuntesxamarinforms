@@ -1,0 +1,9 @@
+#Paquete nuget utilizado:Xamarin.CommunityToolkit
+llamar en xaml como: xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit"
+
+ <SearchBar Placeholder="Buscar...">
+            <SearchBar.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="TextChanged"
+                                                Command="{Binding Buscarcommand}" />
+            </SearchBar.Behaviors>
+</SearchBar>
