@@ -1,0 +1,7 @@
+#paquete nuget utilizado: Sharpnado.Shadows
+#referenciar en xaml como: xmlns:sombras="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+
+ <sombras:Shadows CornerRadius="10"
+                  Shades="{sombras:SingleShade   Offset='0,5' ,Opacity=0.39,Color=Gray,BlurRadius=10}"
+   <Frame/>         
+</sombras:Shadows>
