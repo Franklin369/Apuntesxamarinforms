@@ -1,0 +1,5 @@
+<ContentPage xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit">
+<ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing"
+                                        Command="{Binding Validarrespuestacommand}" />
+</ContentPage.Behaviors>
